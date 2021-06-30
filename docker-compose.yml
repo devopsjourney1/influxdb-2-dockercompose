@@ -12,4 +12,7 @@ services:
       - DOCKER_INFLUXDB_INIT_USERNAME=admin
       - DOCKER_INFLUXDB_INIT_PASSWORD=changemeplease
       - DOCKER_INFLUXDB_INIT_ORG=my-org 
-      - DOCKER_INFLUXDB_INIT_BUCKET=my-bucket 
+      - DOCKER_INFLUXDB_INIT_BUCKET=my-bucket
+
+volumes:
+    influxdb-storage:
