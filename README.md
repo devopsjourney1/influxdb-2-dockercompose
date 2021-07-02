@@ -2,7 +2,7 @@
 ## Install Pre-requirements
 ```
 apt-get update
-pip install docker.io && pip install docker-compose
+apt install docker.io && apt install docker-compose
 ```
 
 
