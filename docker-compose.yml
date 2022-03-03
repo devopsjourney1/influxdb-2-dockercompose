@@ -4,7 +4,7 @@ services:
   influxdb:
     image: influxdb:latest
     ports:
-      - '8086:8086'
+      - '8090:8090'
     volumes:
       - influxdb-storage:/var/lib/influxdb
     environment:
